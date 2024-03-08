@@ -27,7 +27,7 @@ var testCases = map[string]struct {
 	//		define member: [user]
 	//	`,
 	//	code: 2056,
-	//},
+	// },
 	// implemented in Fails_If_Using_This_As_Type_Name
 	//"case2": {
 	//	model: `
@@ -248,7 +248,7 @@ type group
 	//	"case25": {
 	//		model: `model
 	//	schema 1.1
-	//type user
+	// type user
 	//type org
 	//  relations
 	//	define member`,

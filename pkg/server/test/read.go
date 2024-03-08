@@ -42,7 +42,7 @@ func ReadQuerySuccessTest(t *testing.T, datastore storage.OpenFGADatastore) {
 		//				SchemaVersion: typesystem.SchemaVersion1_0,
 		//				TypeDefinitions: parser.MustTransformDSLToProto(`model
 		//  schema 1.0
-		//type user
+		// type user
 		//
 		//type team
 		//
@@ -173,7 +173,7 @@ type repo
 		//			}},
 		//		},
 		//	},
-		//},
+		// },
 		//{
 		//	_name: "ExecuteReturnsTuplesWithProvidedUserAndRelationInAuthorizationModelRegardlessOfObjectIdIfNoObjectId",
 		//	// state
@@ -356,7 +356,7 @@ type repo
 		//			}},
 		//		},
 		//	},
-		//},
+		// },
 	}
 
 	ctx := context.Background()
